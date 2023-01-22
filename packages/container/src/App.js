@@ -1,6 +1,6 @@
 import React from 'react';
 import MarketingApp from './components/MarketingApp';
-// test
+// test 2
 export default () => {
   return (
     <React.Fragment>
