@@ -13,9 +13,6 @@ const devConfig = {
     },
   },
   plugins: [
-    new HTMLWebpackPlugin({
-      template: './public/index.html',
-    }),
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
